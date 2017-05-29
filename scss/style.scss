@@ -1,6 +1,7 @@
 @import 'fonts';
 $main-font: 'Helvetica';
 $main-font2: 'Open-sans';
+$main-font3: 'Helveticaregular';
 
 .wrapper {
   width: 100%;
@@ -376,7 +377,7 @@ $main-font2: 'Open-sans';
 
 .main__slider--categoriesOfproduction-menu {
   display: flex;
-  margin: 26px 0 0 3.9%;
+  margin: 26px 0 0 2.9%;
 }
 
 .main__slider--categoriesOfproduction-item::after {
@@ -390,16 +391,17 @@ $main-font2: 'Open-sans';
 }
 
 .main__slider--categoriesOfproduction-link {
+  letter-spacing: -0.3px;
   text-decoration: none;
   color: rgb(246, 130, 55);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.75rem;
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .main__slider--categoriesOfproduction-item:nth-child(4) .main__slider--categoriesOfproduction-link:last-child {
   color: rgb(27, 27, 27);
-  letter-spacing: 0.5px;
+  letter-spacing: -0.1px;
 }
 
 .main__slider--container {
@@ -486,7 +488,7 @@ $main-font2: 'Open-sans';
   margin: 12px 0 9px 27.86%;
   height: 12px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.75rem;
   font-weight: 100;
 }
@@ -528,9 +530,10 @@ $main-font2: 'Open-sans';
 .main__product--selection-title-text-next {
   margin: 0;
   color: black;
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 1.125rem;
   font-weight: 100;
+  letter-spacing: -0.6px;
 }
 
 .main__product--selection-title-price {
@@ -547,7 +550,7 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-title-pricenew {
-  margin: 11px 0 0 3.9%;
+  margin: 11px 0 0 2.9%;
   color: rgb(246, 130, 53);
   font-family: $main-font;
   font-size: 25px;
@@ -555,7 +558,7 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-title-price-discount {
-  margin: 2px 0 0 24.6%;
+  margin: 1px 0 0 18.6%;
 }
 
 .main__product--selection-color {
@@ -571,7 +574,7 @@ $main-font2: 'Open-sans';
 .main__product--selection-color-text {
   margin: 12px 0 0 0.497%;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 900;
 }
@@ -654,7 +657,7 @@ $main-font2: 'Open-sans';
   margin-right: 8px;
   padding-top: 12px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.75rem;
   font-weight: 900;
   border: 1px solid rgb(204, 204, 204);
@@ -714,6 +717,7 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-quantity-choose-minus {
+  font-family: $main-font3;
   font-weight: 900;
   margin: 19px 0 0;
   height: 13px;
@@ -725,7 +729,7 @@ $main-font2: 'Open-sans';
   height: 25px;
   border: 1px solid #dedede;
   color: #1b1b1b;
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 14px;
   font-weight: 900;
   padding-top: 10px;
@@ -734,6 +738,7 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-quantity-choose-plus {
+  font-family: $main-font3;
   font-weight: 900;
   margin: 22px 0 0 1.49%;
   height: 13px;
@@ -741,7 +746,7 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-quantity-choose-remainder {
-  margin: 8px 0 0 26.045%;
+  margin: 8px 0 0 18.045%;
   width: 168px;
   height: 40px;
   background-color: rgb(234, 234, 234);
@@ -751,7 +756,7 @@ $main-font2: 'Open-sans';
 .main__product--selection-quantity-choose-remainder-text {
   width: 157px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.75rem;
   font-weight: 900;
   margin: 6px 0 0 6.55%;
@@ -760,7 +765,7 @@ $main-font2: 'Open-sans';
 
 .main__product--selection-quantity-choose-remainder-text-next {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.75rem;
   font-weight: 100;
   margin: 2px 0 0 9.55%;
@@ -842,7 +847,7 @@ $main-font2: 'Open-sans';
 
 .main__product--selection-order-text {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 900;
 }
@@ -902,7 +907,7 @@ $main-font2: 'Open-sans';
   margin: 22px 0 0 2.98%;
   letter-spacing: 0.4px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 900;
   text-decoration: underline;
@@ -958,35 +963,35 @@ $main-font2: 'Open-sans';
 .main__product--selection-about-description-info-composition {
   margin: -1px 0 0;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
 }
 
 .main__product--selection-about-description-info-composition span {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-season {
   margin: 1px 0 0;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
 }
 
 .main__product--selection-about-description-info-season span {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-details {
   margin: 3px 0 0;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -994,14 +999,14 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-about-description-info-details span {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-code {
   margin: 19px 0 25px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1009,42 +1014,42 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-about-description-info-code span {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-size {
   margin: -1px 0 20px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
 }
 
-.main__product--selection-about-description-size span {
-  font-weight: 100;
+.main__product--selection-about-description-info-size span {
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-chest {
   margin: 1px 0 0;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
 }
 
 .main__product--selection-about-description-info-chest span {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-waist {
   margin: 3px 0 0;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1052,13 +1057,13 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-about-description-info-waist span {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-hips {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1066,14 +1071,14 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-about-description-info-hips span {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-height {
   margin: 0 0 20px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1081,24 +1086,23 @@ $main-font2: 'Open-sans';
 }
 
 .main__product--selection-about-description-info-height span {
-  font-weight: 100;
+  font-weight: 400;
   letter-spacing: 0.02px;
 }
 
 .main__product--selection-about-description-info-truesize {
-  width: 95%;
   margin: 0 0 27px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
-  letter-spacing: 0.3px;
+  letter-spacing: -0.2px;
   line-height: 1.2;
 }
 
 .main__product--selection-about-description-info-truesize a {
   font-weight: 900;
-  font-family: $main-font;
+  font-family: $main-font3;
   color: rgb(27, 27, 27);
 }
 ////////////////////////////////////////////////////////////////////////////////
@@ -1107,7 +1111,7 @@ $main-font2: 'Open-sans';
 .main__product--selection-about-description-info-delivery {
   margin: -1px 0 20px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1121,7 +1125,7 @@ $main-font2: 'Open-sans';
 .main__product--selection-about-description-info-deliverySum {
   margin: 1px 0 20px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1130,7 +1134,7 @@ $main-font2: 'Open-sans';
 .main__product--selection-about-description-info-deliveryMethod {
   margin: 3px 0 20px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1139,16 +1143,16 @@ $main-font2: 'Open-sans';
 
 .main__product--selection-about-description-info-deliveryMethod-first {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 400;
   font-size: 0.875rem;
-  letter-spacing: 0.3px;
+  letter-spacing: -0.5px;
   line-height: 1.2;
 }
 
 .main__product--selection-about-description-info-deliveryMethod-second {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 400;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1157,7 +1161,7 @@ $main-font2: 'Open-sans';
 
 .main__product--selection-about-description-info-deliveryMethod-third {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-weight: 400;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1168,8 +1172,8 @@ $main-font2: 'Open-sans';
   width: 95%;
   margin: 20px 0 22px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
-  font-weight: 900;
+  font-family: $main-font3;
+  font-weight: 700;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
   line-height: 1.2;
@@ -1292,7 +1296,7 @@ $main-font2: 'Open-sans';
   margin: 10px 0 0;
   letter-spacing: 0.6px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 900;
 }
@@ -1300,7 +1304,7 @@ $main-font2: 'Open-sans';
 .related-products-all-position-about {
   margin: 2px 0 0;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 400;
 }
@@ -1338,10 +1342,10 @@ $main-font2: 'Open-sans';
 }
 
 .see-also-text {
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   color: rgb(27, 27, 27);
-  font-weight: 900;
+  font-weight: 600;
   letter-spacing: 0.5px;
 }
 
@@ -1379,34 +1383,34 @@ $main-font2: 'Open-sans';
 
 .info__value--title {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 1.0625rem;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
 }
 
 .info__delivery--title {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 1.0625rem;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
 }
 
 .info__help--title {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 1.0625rem;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
 }
 
 .info__value--text {
   margin: 23px auto;
-  width: 59%;
+  width: 66%;
   line-height: 1.2;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 100;
   text-align: center;
@@ -1414,10 +1418,10 @@ $main-font2: 'Open-sans';
 
 .info__delivery--text {
   margin: 23px auto;
-  width: 57%;
+  width: 60%;
   line-height: 1.2;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 100;
   text-align: center;
@@ -1425,11 +1429,11 @@ $main-font2: 'Open-sans';
 
 .info__help--text {
   margin: 23px auto 0;
-  width: 65%;
+  width: 80%;
   text-align: center;
   line-height: 1.2;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 100;
 }
@@ -1438,7 +1442,7 @@ $main-font2: 'Open-sans';
   margin: 4px auto;
   width: 75%;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 100;
 }
@@ -1449,6 +1453,7 @@ $main-font2: 'Open-sans';
   background-color: black;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .footer__menu {

@@ -9,8 +9,8 @@
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'Helveticaregular';
-  src: url("../fonts/helveticaregular-webfont.woff2") format("woff2"), url("../fonts/helveticaregular-webfont.woff") format("woff");
+  font-family: 'Helveticacyrblack';
+  src: url("../fonts/helveticaneuecyr-black-webfont.woff2") format("woff2"), url("../fonts/helveticaneuecyr-black-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 .wrapper {
@@ -370,7 +370,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 26px 0 0 2.9%; }
+  margin: 26px 0 0 3.9%; }
 
 .main__slider--categoriesOfproduction-item::after {
   content: " /";
@@ -381,16 +381,15 @@
   font-weight: bold; }
 
 .main__slider--categoriesOfproduction-link {
-  letter-spacing: -0.3px;
   text-decoration: none;
   color: #f68237;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.75rem;
-  font-weight: 400; }
+  font-weight: 900; }
 
 .main__slider--categoriesOfproduction-item:nth-child(4) .main__slider--categoriesOfproduction-link:last-child {
   color: #1b1b1b;
-  letter-spacing: -0.1px; }
+  letter-spacing: 0.5px; }
 
 .main__slider--container {
   display: -webkit-box;
@@ -473,7 +472,7 @@
   margin: 12px 0 9px 27.86%;
   height: 12px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.75rem;
   font-weight: 100; }
 
@@ -512,10 +511,9 @@
 .main__product--selection-title-text-next {
   margin: 0;
   color: black;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 1.125rem;
-  font-weight: 100;
-  letter-spacing: -0.6px; }
+  font-weight: 100; }
 
 .main__product--selection-title-price {
   display: -webkit-box;
@@ -531,14 +529,14 @@
   text-decoration: line-through; }
 
 .main__product--selection-title-pricenew {
-  margin: 11px 0 0 2.9%;
+  margin: 11px 0 0 3.9%;
   color: #f68235;
   font-family: "Helvetica";
   font-size: 25px;
   font-weight: 900; }
 
 .main__product--selection-title-price-discount {
-  margin: 1px 0 0 18.6%; }
+  margin: 2px 0 0 24.6%; }
 
 .main__product--selection-color {
   width: 63%;
@@ -557,7 +555,7 @@
 .main__product--selection-color-text {
   margin: 12px 0 0 0.497%;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 900; }
 
@@ -636,7 +634,7 @@
   margin-right: 8px;
   padding-top: 12px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.75rem;
   font-weight: 900;
   border: 1px solid #cccccc;
@@ -690,7 +688,6 @@
   display: flex; }
 
 .main__product--selection-quantity-choose-minus {
-  font-family: "Helveticaregular";
   font-weight: 900;
   margin: 19px 0 0;
   height: 13px;
@@ -701,7 +698,7 @@
   height: 25px;
   border: 1px solid #dedede;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 14px;
   font-weight: 900;
   padding-top: 10px;
@@ -709,14 +706,13 @@
   margin: 12px 0 0 2.484%; }
 
 .main__product--selection-quantity-choose-plus {
-  font-family: "Helveticaregular";
   font-weight: 900;
   margin: 22px 0 0 1.49%;
   height: 13px;
   cursor: pointer; }
 
 .main__product--selection-quantity-choose-remainder {
-  margin: 8px 0 0 18.045%;
+  margin: 8px 0 0 26.045%;
   width: 168px;
   height: 40px;
   background-color: #eaeaea;
@@ -725,7 +721,7 @@
 .main__product--selection-quantity-choose-remainder-text {
   width: 157px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.75rem;
   font-weight: 900;
   margin: 6px 0 0 6.55%;
@@ -733,7 +729,7 @@
 
 .main__product--selection-quantity-choose-remainder-text-next {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.75rem;
   font-weight: 100;
   margin: 2px 0 0 9.55%;
@@ -813,7 +809,7 @@
 
 .main__product--selection-order-text {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 900; }
 
@@ -869,7 +865,7 @@
   margin: 22px 0 0 2.98%;
   letter-spacing: 0.4px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 900;
   text-decoration: underline; }
@@ -925,133 +921,134 @@
 .main__product--selection-about-description-info-composition {
   margin: -1px 0 0;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px; }
 
 .main__product--selection-about-description-info-composition span {
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-season {
   margin: 1px 0 0;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px; }
 
 .main__product--selection-about-description-info-season span {
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-details {
   margin: 3px 0 0;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
   line-height: 1.2; }
 
 .main__product--selection-about-description-info-details span {
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-code {
   margin: 19px 0 25px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
   line-height: 1.2; }
 
 .main__product--selection-about-description-info-code span {
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-size {
   margin: -1px 0 20px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px; }
 
-.main__product--selection-about-description-info-size span {
-  font-weight: 400;
+.main__product--selection-about-description-size span {
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-chest {
   margin: 1px 0 0;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px; }
 
 .main__product--selection-about-description-info-chest span {
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-waist {
   margin: 3px 0 0;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
   line-height: 1.2; }
 
 .main__product--selection-about-description-info-waist span {
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-hips {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
   line-height: 1.2; }
 
 .main__product--selection-about-description-info-hips span {
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-height {
   margin: 0 0 20px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
   line-height: 1.2; }
 
 .main__product--selection-about-description-info-height span {
-  font-weight: 400;
+  font-weight: 100;
   letter-spacing: 0.02px; }
 
 .main__product--selection-about-description-info-truesize {
+  width: 95%;
   margin: 0 0 27px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
-  letter-spacing: -0.2px;
+  letter-spacing: 0.3px;
   line-height: 1.2; }
 
 .main__product--selection-about-description-info-truesize a {
   font-weight: 900;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   color: #1b1b1b; }
 
 .main__product--selection-about-description-info-delivery {
   margin: -1px 0 20px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px; }
@@ -1063,7 +1060,7 @@
 .main__product--selection-about-description-info-deliverySum {
   margin: 1px 0 20px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px; }
@@ -1071,7 +1068,7 @@
 .main__product--selection-about-description-info-deliveryMethod {
   margin: 3px 0 20px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1079,15 +1076,15 @@
 
 .main__product--selection-about-description-info-deliveryMethod-first {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 400;
   font-size: 0.875rem;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.3px;
   line-height: 1.2; }
 
 .main__product--selection-about-description-info-deliveryMethod-second {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 400;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1095,7 +1092,7 @@
 
 .main__product--selection-about-description-info-deliveryMethod-third {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-weight: 400;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
@@ -1105,8 +1102,8 @@
   width: 95%;
   margin: 20px 0 22px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
-  font-weight: 700;
+  font-family: "Helvetica";
+  font-weight: 900;
   font-size: 0.875rem;
   letter-spacing: 0.3px;
   line-height: 1.2; }
@@ -1219,14 +1216,14 @@
   margin: 10px 0 0;
   letter-spacing: 0.6px;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 900; }
 
 .related-products-all-position-about {
   margin: 2px 0 0;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 400; }
 
@@ -1263,10 +1260,10 @@
   border-bottom: 1px solid #dedede; }
 
 .see-also-text {
-  font-family: "Helveticaregular";
+  font-family: "Helveticacyrblack";
   font-size: 0.875rem;
   color: #1b1b1b;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: 0.5px; }
 
 .see-also-link {
@@ -1300,52 +1297,52 @@
 
 .info__value--title {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 1.0625rem;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center; }
 
 .info__delivery--title {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 1.0625rem;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center; }
 
 .info__help--title {
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 1.0625rem;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center; }
 
 .info__value--text {
   margin: 23px auto;
-  width: 66%;
+  width: 59%;
   line-height: 1.2;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 100;
   text-align: center; }
 
 .info__delivery--text {
   margin: 23px auto;
-  width: 60%;
+  width: 57%;
   line-height: 1.2;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 100;
   text-align: center; }
 
 .info__help--text {
   margin: 23px auto 0;
-  width: 80%;
+  width: 65%;
   text-align: center;
   line-height: 1.2;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 100; }
 
@@ -1353,7 +1350,7 @@
   margin: 4px auto;
   width: 75%;
   color: #1b1b1b;
-  font-family: "Helveticaregular";
+  font-family: "Helvetica";
   font-size: 0.875rem;
   font-weight: 100; }
 
