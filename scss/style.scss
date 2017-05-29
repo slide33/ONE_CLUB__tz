@@ -636,14 +636,14 @@ $main-font3: 'Helveticaregular';
   margin: 11px 0 0;
   letter-spacing: 0.6px;
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 0.875rem;
   font-weight: 900;
 }
 
 .main__product--selection-size-text-table {
   margin: 0 0 0 57%;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.2px;
   color: rgb(153, 153, 153);
   font-family: $main-font;
   font-size: 0.875rem;
@@ -695,19 +695,15 @@ $main-font3: 'Helveticaregular';
   width: 82%;
   height: 144px;
   margin: 0 0 0 16.875%;
-  // border-bottom: 1px solid rgb(222, 222, 222);
   display: flex;
   flex-direction: column;
 }
-// .main__product--selection-quantity::after {
-//   border: 1px solid black;
-// }
 
 .main__product--selection-quantity-text {
   color: rgb(27, 27, 27);
-  font-family: $main-font;
+  font-family: $main-font3;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 900;
   margin: 9px 0 0;
   letter-spacing: 0.5px;
 }
